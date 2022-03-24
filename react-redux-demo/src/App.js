@@ -1,10 +1,15 @@
+import { Provider } from 'react-redux';
 import './App.css';
-import EggContainer from './component/EggContainer';
+import EggContainer from './component/redux/egg/EggContainer';
+import store from './component/redux/store';
 
 function App() {
   return (
+
     <div className="App">
-     <EggContainer/>
+      <Provider store={store}>
+        <EggContainer />
+      </Provider>
     </div>
   );
 }

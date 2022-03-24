@@ -1,0 +1,1 @@
+export {buyEgg} from "./egg/eggAction"
