@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { buyEgg } from '..'
+import { buyEgg } from './redux'
 
 
 const EggContainer = (props) => {

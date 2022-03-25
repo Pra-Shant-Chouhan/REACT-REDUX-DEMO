@@ -10,7 +10,7 @@ const eggReducer = (state = initialEggState, action) => {
         case BUY_EGG:
             return {
                 ...state,
-                numOfEggs: state.numOfEggs - 1
+                numOfEggs: state.numOfEggs - action.payload
             };
         
         default:
