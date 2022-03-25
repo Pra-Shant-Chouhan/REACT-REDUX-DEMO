@@ -1,6 +1,6 @@
 import { createStore } from "redux";
-import eggReducer from "./egg/eggReducer";
+import RootReducers from "./RootReducer";
 
-const store = createStore(eggReducer)
+const store = createStore(RootReducers)
 
 export default store;

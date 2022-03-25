@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 import { buyEgg } from './redux'
 
 const HooksEggContainer = () => {
-    const numOfEggs = useSelector(state => state.numOfEggs)
+    const numOfEggs = useSelector(state => state.egg.numOfEggs)
     const dispatch = useDispatch()
 
     return (
