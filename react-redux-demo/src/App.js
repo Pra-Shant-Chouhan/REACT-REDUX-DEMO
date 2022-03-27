@@ -6,6 +6,7 @@ import EggContainer from './component/EggContainer';
 import store from './component/redux/store';
 import NewEggContainer from './component/NewEggContainer';
 import ItemContainer from './component/ItemContainer';
+import UserContainer from './component/UserContainer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <HooksEggContainer />
         <NewEggContainer/>
         <HooksChickenContainer />
+        <UserContainer/>
       </Provider>
     </div>
   );
