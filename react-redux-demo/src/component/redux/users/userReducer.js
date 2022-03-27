@@ -17,14 +17,14 @@ const userReducer = (state = initialState, action) => {
         case FETCH_USERS_SUCCESS:
             return {
                 lodding: false,
-                user: action.payload,
+                users: action.payload,
                 error: ''
             }
         case FETCH_USERS_FAILURE:
             return {
                 ...state,
                 lodding: false,
-                user: [],
+                users: [],
                 error:action.payload
             }
         default:
